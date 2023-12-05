@@ -10,7 +10,8 @@ This repository is intended to make `EyeLinkCoreGraphicsPsychoPy.py` easily acce
 You can clone this repository and run `pip install -e .` from the root of the clone.
 
 Alternatively, you can install it directly from GitHub (recommended):
-`pip install https://github.com/sappelhoff/EyeLinkCoreGraphicsPsychoPy/archive/main.tar.gz`
+
+`pip install -U https://github.com/sappelhoff/EyeLinkCoreGraphicsPsychoPy/archive/refs/heads/main.tar.gz`
 
 ## Usage
 
@@ -20,6 +21,7 @@ Alternatively you can just install this repository (see above) and call
 ```python
 from EyeLinkCoreGraphicsPsychoPy import EyeLinkCoreGraphicsPsychoPy
 ```
+
 as usual. The rest of your script and the SR-Research examples can remain unaffected.
 
 Note that SR-Research also includes some sound files next to their `EyeLinkCoreGraphicsPsychoPy.py`.

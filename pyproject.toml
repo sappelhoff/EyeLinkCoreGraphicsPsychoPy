@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=45",  "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "EyeLinkCoreGraphicsPsychoPy"
+version = "2021.3.31"
+license = { text = "GPLv2" }
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["EyeLinkCoreGraphicsPsychoPy"]
+namespaces = false
